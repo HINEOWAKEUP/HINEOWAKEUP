@@ -212,7 +212,7 @@ option(LWS_WITH_TLS_JIT_TRUST "Enable dynamically computing which trusted TLS CA
 # Event library options (may select multiple, or none for default poll()
 #
 option(LWS_WITH_LIBEV "Compile with support for libev" OFF)
-option(LWS_WITH_LIBUV "Compile with support for libuv" OFF)
+option(LWS_WITH_LIBUV "Compile with support for libuv" ON)
 option(LWS_WITH_LIBEVENT "Compile with support for libevent" OFF)
 option(LWS_WITH_GLIB "Compile with support for glib event loop" OFF)
 option(LWS_WITH_SDEVENT "Compile with support for sd-event loop" OFF)
